@@ -36,6 +36,12 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.modal-p {
+  color: #003252;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 .service-justify{
   text-align: justify;
 }
@@ -53,9 +59,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-p {
-color: #22395d;
-}
+
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
@@ -70,6 +74,7 @@ body {
   color: #818491;
   text-align: left;
   background-color: #FFFFFF;
+  
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -90,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color:#003252 !important
 }
 
 abbr[title],
