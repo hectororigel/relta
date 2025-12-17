@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Evitar rastreo en posibles áreas privadas (si existen)
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Indica la ubicación de tu sitemap
+Sitemap: https://relta.com.mx/sitemap.xml
